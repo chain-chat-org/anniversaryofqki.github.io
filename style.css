@@ -1,0 +1,44 @@
+
+body {
+    
+    background-image: url('./image/bg.png');
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'ZCOOL QingKe HuangYou',
+    cursive;
+
+}
+
+
+h2 {
+    font-size: 220%;
+    font-weight: 500;
+    color: aliceblue;
+    
+   
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    letter-spacing:8rpx;
+    -webkit-font-smoothing: antialiased;
+}
+
+.timer {
+    font-size: 180%;
+    line-height: 1.5;
+    margin: 1em 0;
+    color: whitesmoke;
+    letter-spacing:8%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.timer b {
+    color:rgb(0, 207, 214);
+    
+    -webkit-font-smoothing: antialiased;
+}
