@@ -1,31 +1,38 @@
 
-body {
+body, html {
     
-    background-image: url('./image/bg.png');
+    background-image: url('./image/bg3.jpg');
+    /* margin: 0; */
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    height: 100%;
+    line-height: 21px;
+    display: block;
     margin: 0;
     -webkit-font-smoothing: antialiased;
-    font-family: 'ZCOOL QingKe HuangYou',
-    cursive;
 
 }
 
 
+
 h2 {
+    float: cneter;
     font-size: 220%;
-    font-weight: 500;
+    font-weight: 500%;
     color: aliceblue;
     
    
 }
 
 .content {
+    float: cneter;
     position: absolute;
     width: 100%;
     top: 50%;
     transform: translate(0, -50%);
     text-align: center;
-    letter-spacing:8rpx;
-    -webkit-font-smoothing: antialiased;
+    letter-spacing:8%
+    
 }
 
 .timer {
@@ -34,11 +41,12 @@ h2 {
     margin: 1em 0;
     color: whitesmoke;
     letter-spacing:8%;
-    -webkit-font-smoothing: antialiased;
+    
 }
 
 .timer b {
-    color:rgb(65, 122, 245);
+    color: #1E90FF;
+
     
-    -webkit-font-smoothing: antialiased;
+ 
 }
